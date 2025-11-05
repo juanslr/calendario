@@ -3,24 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CESUR - Página de prueba</title>
+  <title>Horario Semanal CESUR</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
+      padding: 20px;
       text-align: center;
-      padding: 50px;
     }
     h1 {
       color: #333;
     }
-    p {
-      color: #666;
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 800px;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    td {
+      background-color: #fff;
+    }
+    .info {
+      margin-top: 30px;
+      font-size: 1rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>¡Hola desde cesur.randomcord.es!</h1>
-  <p>Si ves esta página, la configuración ha sido exitosa 🎉</p>
+  <h1>Horario Semanal</h1>
+  <table>
+    <tr>
+      <th>Hora</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+    <tr>
+      <td>1ª</td>
+      <td>OPT</td>
+      <td>ASO</td>
+      <td>BD</td>
+      <td>IPEII</td>
+      <td>ASO</td>
+    </tr>
+    <tr>
+      <td>2ª</td>
+      <td>OPT</td>
+      <td>INGLÉS</td>
+      <td>SERI</td>
+      <td>ASO</td>
+      <td>BD</td>
+    </tr>
+    <tr>
+      <td>Recreo</td>
+      <td colspan="5">Recreo</td>
+    </tr>
+    <tr>
+      <td>3ª</td>
+      <td>SEG</td>
+      <td>IAP</td>
+      <td>PI</td>
+      <td>IAP</td>
+      <td>SERI</td>
+    </tr>
+    <tr>
+      <td>4ª</td>
+      <td>SEG</td>
+      <td>IAP</td>
+      <td>PI</td>
+      <td>IAP</td>
+      <td>SERI</td>
+    </tr>
+  </table>
+
+  <div class="info">
+    <p><strong>Tutor:</strong> Javier</p>
+    <p><strong>Coordinación dual:</strong> Javier</p>
+  </div>
 </body>
 </html>
