@@ -48,13 +48,13 @@ const asignaturasInfo = {
 const dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
 
 const horario = [
-  ["OPT", "ASO",     "BD",  "IPEII", "ASO"],
-  ["OPT", "ASO",     "BD",  "IPEII", "ASO"],
-  ["OPT", "INGLES", "SEREI", "IPEII", "ASO"],
+  ["OPT", "SEREI",  "SEREI",  "IPEII", "ASO"],
+  ["OPT", "SEREI",  "SEREI",  "IPEII", "ASO"],
+  ["OPT", "INGLES", "SEREI", "IPEII",  "ASO"],
   ["Recreo", "Recreo", "Recreo", "Recreo", "Recreo"],
-  ["SEG", "INGLES", "SEREI", "PI",   "BD"],
-  ["SEG", "IAW",    "SEREI", "IAW", "SEREI"],
-  ["SEG", "IAW",    "PI",    "IAW", "SEREI"],
+  ["SEG", "INGLES", "ASO",    "IAW",   "BD"],
+  ["SEG", "IAW",    "ASO",    "PI",    "BD"],
+  ["SEG", "IAW",    "PI",     "IAW",   "BD"],
 ];
 
 const portalRoot = document.getElementById("portal-root") || document.body;
